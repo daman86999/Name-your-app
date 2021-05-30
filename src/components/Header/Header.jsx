@@ -1,14 +1,17 @@
-import React,{Component} from 'react';
+import React from 'react';
+import pic from './../../images/1.png';
+import './Header.css'
 
-class Header extends Component {
+const Header = ({headerExpanded,headTitle}) => {
     
-    render() { 
+  
         return ( 
             <div className="head-container">
-                <h1>Name It!</h1>
+                <img src={pic} className={` head-image ${headerExpanded ? `head-image-expanded` : `head-image-contracted`}`} alt="headerImage"/>
+                <h1 className={`head-text ${headerExpanded ? `head-text-expanded` : `head-text-contracted`}`} >{headTitle}</h1>
             </div>
          );
-    }
-}
+    
+};
  
 export default Header;

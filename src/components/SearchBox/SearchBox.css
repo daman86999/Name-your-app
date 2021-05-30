@@ -1,0 +1,25 @@
+.search-container{
+    display: flex;
+   justify-content: center;
+   margin: 10px;
+}
+
+.search-input{
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 250px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: #141c38;
+    box-shadow: inset 0px 0px 0px  #868686ef, 2px 2px 1px  #16235cef ;
+}
+
+.search-input:focus{
+    box-shadow: inset 2px 2px 5px  #868686ef ;
+}
+
+.search-input::placeholder{
+color: #030e38;
+}

@@ -1,4 +1,39 @@
-.head-container{
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+.head-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.head-text {
+    font-family: 'Train One', cursive;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+    color: #e6e7e7;
+    transition: 1s;
+}
+
+.head-text-expanded {
+    font-size: 60px;
+}
+
+.head-text-contracted {
+    font-size: 30px;
+}
+
+.head-image {
+    width: auto;
+    transition: 1s;
+}
+
+.head-image-expanded {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.head-image-contracted {
+    min-width: 90px;
+    max-width: 90px;
 }

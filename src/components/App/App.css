@@ -1,4 +1,7 @@
 body{
-    background-color: rgb(80, 81, 82);
-    color: white;
+    background-color: #0f1228;
+    color: #e7e9f0;
+    width: 100%;
+    overflow-x: hidden ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }

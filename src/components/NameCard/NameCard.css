@@ -1,0 +1,17 @@
+.result-name-card{
+    background-color: #0099ff;
+    min-width: 90px;
+    border-radius: 4px;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+
+.result-name-card:hover{
+    border-radius: 8px; 
+   box-shadow: 3px 3px 0 #f2ff37,-3px -3px 0 #f2ff37,-3px 3px 0 #f2ff37,3px -3px 0 #f2ff37;
+}
