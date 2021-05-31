@@ -18,7 +18,7 @@ class App extends React.Component {
     handleInputChange = (inputText) => {
         this.setState({
             headerExpand: !inputText,
-            suggestedNames: name(inputText),
+            suggestedNames: inputText? name(inputText) : [],
         });
     };
 
